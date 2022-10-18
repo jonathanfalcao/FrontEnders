@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    font-family: 'Russo One', sans-serif;
+    box-sizing: border-box;
+}
+
+.primeira {
+    margin-top: 100px;
+}
+
+.navbar {
+    background-color: #400f80;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navG4 {
+    justify-content: end;
+}
+
+
+.navbar-nav a {
+    margin: 0 25px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.container-fluid a {
+    margin: 0 25px;
+}
+
+
+footer {
+    background-color: #400f80;
+    height: 600px;
+    width: 100rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.logo-footer {
+    /* color: white; */
+    padding: 60px 0 0 0;
+}
+
+.informacoes-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100rem;
+}
+
+.informacoes-footer div {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes-footer h3 {
+    color: #f9b850;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.redesSociais img {
+    width: 75px;
+}
