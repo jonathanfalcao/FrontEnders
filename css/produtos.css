@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+.assistant-font {
+    font-family: 'Assistant', sans-serif;
+}
+
+.purple2 {
+    color: #762fcf;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-text {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.card-size {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+    justify-content: space-evenly;
+}
+
+.card-content {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    height: 100%;
+    margin-bottom: 3rem;
+    margin-left: 0.0025rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #9244f3;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 5px 5px 0px -1px #400F80; 
+    box-shadow: 5px 5px 0px -1px #400F80;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-title {
+    color: #762fcf;
+}
+
+.card-text {
+    color: #400F80;
+}
+
+.card-button {
+    border: 1px solid #400F80;
+    border-radius: 1rem;
+    background-color: #762fcf;
+    color: white;
+    padding: 0.75rem 3rem;
+    font-size: 15px;
+}
+
+.card-button:hover {
+    background-color: #400F80;
+    border: 1px solid #9244f3;
+}
