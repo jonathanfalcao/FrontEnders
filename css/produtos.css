@@ -109,6 +109,13 @@
     color: #762fcf;
 }
 
+.small-text {
+    text-decoration: none;
+    color:#9244f3;
+    font-size: 15px;
+    align-self:center;
+}
+
 .card-text {
     color: #400F80;
 }
