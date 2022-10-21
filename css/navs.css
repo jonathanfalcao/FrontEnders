@@ -55,8 +55,13 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     color: white;
+}
+
+footer section {
+    max-width: 100%;
 }
 
 .logo-footer {
@@ -93,4 +98,23 @@ footer {
 
 .redesSociais img {
     width: 75px;
+}
+
+@media screen and (max-width: 1200px){
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    footer, .informacoes-footer {
+        flex-direction: column;
+    }
 }

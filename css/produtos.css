@@ -55,8 +55,9 @@
     flex: 0 0 auto;
     width: 30%;
     height: 100%;
-    margin-bottom: 3rem;
-    margin-left: 1rem;
+    margin: 0 0.5rem 3rem 0.5rem;
+    /* margin-bottom: 3rem;
+    margin-left: 1rem; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -82,8 +83,9 @@
     flex: 0 0 auto;
     width: 33.33333333%;
     height: 100%;
-    margin-bottom: 3rem;
-    margin-left: 0.0025rem;
+    margin: 0 0.5rem 3rem 0.5rem;
+    /* margin-bottom: 3rem;
+    margin-left: 1rem; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -118,6 +120,13 @@
 
 .card-text {
     color: #400F80;
+    text-align: justify;
+}
+
+.card-image {
+    width: 60%;
+    justify-self: center;
+    align-self: center;
 }
 
 .card-button {
@@ -146,4 +155,47 @@
 
 .card-list li {
     text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    .container-text {
+        width: 90vw;
+    }
+
+    .price-size {
+        flex-direction: column;
+    }
+
+    .price-content {
+        width: 90vw;
+    }
+
+    .card-size {
+        flex-direction: column;
+    }
+
+    .card-content {
+        width: 90vw;
+    }
+
+    footer, .informacoes-footer {
+        flex-direction: column;
+    }
 }
