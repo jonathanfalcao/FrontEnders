@@ -1,16 +1,25 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
 main {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
 }
 .primeira {
-  padding-top: 1rem;
-  width: 50%;
+  margin: 1rem;
+  padding-top: 7rem;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow:hidden;
 }
 
+
+/* Container de cursos */
 .title {
   text-align: center;
   display: flex;
@@ -23,15 +32,15 @@ main {
 
 .title p {
   color: #762fcf;
+  margin: 0.5rem;
 }
 
 .card-size {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 0rem;
-  width: 80%;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 90%;
 }
 
 .card-content {
@@ -83,34 +92,104 @@ main {
   border: 1px solid #9244f3;
   color: #ff9d00;
 }
-.card-size2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 0rem;
-  width: 95%;
-  margin-bottom: 1rem;
-}
 
+/* Fim do container de cursos */
+
+
+/* Início do formulário do Login */
 .second {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
+  text-align: center;
   background-color: #ffffff;
-  padding: 4.5rem;
-  width: 100%;
+  width: 40%;
   display: flex;
-  flex-direction: column;
 }
 
 .login-container {
-  margin-left: 8rem;
-  margin-top: 5.5rem;
-  border: 5px solid #400d80;
-  height: 33rem;
+  margin: 10rem;
+  margin-top: 10rem;
+  border: 2px solid #400d80;
+  height: 35rem;
   width: 25rem;
   border-radius: 25px;
   background-color: #f8f8f8;
 }
 
+.my-h2{
+  margin-top: 1.5rem;
+  color:#400f80;
+}
 
+.my-p{
+  color: #f9b850;
+  margin-bottom: 2rem;
+}
+
+.emailPassword{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailPassword input{
+  text-align: center;
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 25px;
+  border:2px solid #400f80;
+}
+
+.email{
+  margin-bottom: 2rem;
+}
+
+.remember-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+label{
+  color: #f9b850;
+}
+
+.remember-content a{
+  color: #f9b850;
+}
+
+
+.between button{
+  margin: 1rem;
+  background-color: #400d80;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+
+.between button:hover{
+ background-color:#762FCF;
+}
+
+.or-between{
+  color: #400f80;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 5rem;
+  padding-right: 5rem;
+margin: 1rem;
+
+}
+
+.box img{
+  width: 2rem;
+}
+
+/* Fim fo formulário do Login */
