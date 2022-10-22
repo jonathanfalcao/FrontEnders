@@ -10,7 +10,7 @@ main {
 }
 .primeira {
   margin: 1rem;
-  padding-top: 7rem;
+  padding-top: 6rem;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -28,19 +28,25 @@ main {
 
 .title h2 {
   color: #400f80;
+  font-family: 'Russo One';
 }
 
 .title p {
   color: #762fcf;
-  margin: 0.5rem;
+  font-size: 1.1rem;
 }
 
 .card-size {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 1rem;
-  width: 90%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-content img{
+  width: 11rem;
+  height: 9rem;
+
 }
 
 .card-content {
@@ -100,7 +106,8 @@ main {
 .second {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
+  justify-content: center;
   text-align: center;
   background-color: #ffffff;
   width: 40%;
@@ -108,10 +115,9 @@ main {
 }
 
 .login-container {
-  margin: 10rem;
-  margin-top: 10rem;
+  margin-top: 7rem;
   border: 2px solid #400d80;
-  height: 35rem;
+  height: 33rem;
   width: 25rem;
   border-radius: 25px;
   background-color: #f8f8f8;
@@ -128,7 +134,7 @@ main {
 }
 
 .emailPassword{
-  margin: 2rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,7 +149,7 @@ main {
 }
 
 .email{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .remember-content{
@@ -162,7 +168,7 @@ label{
 
 
 .between button{
-  margin: 1rem;
+  margin: 2rem;
   background-color: #400d80;
   color: white;
   width: 10rem;
@@ -175,7 +181,7 @@ label{
 }
 
 .or-between{
-  color: #400f80;
+  color: #f9b850;
 }
 
 .box{
