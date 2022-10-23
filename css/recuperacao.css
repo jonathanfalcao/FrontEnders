@@ -37,7 +37,7 @@ form p {
   color: #f9b850;
 }
 
-form input {
+form input{
   text-align: center;
   padding: 1rem;
   width: 20rem;
@@ -49,7 +49,7 @@ form input {
 form button {
   margin-top: 1rem;
   margin: 1rem;
-  background-color: #400d80;
+  background-color: #762FCF;
   color: white;
   width: 10rem;
   height: 3rem;
@@ -57,5 +57,5 @@ form button {
 }
 
 form button:hover{
-    background-color:#762FCF;
+    background-color:#400f80;
    }
