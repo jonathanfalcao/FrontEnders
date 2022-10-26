@@ -3,8 +3,46 @@
 }
 
 #exampleFormControlInput1{
-    width: 50%;
+    width: 200px;
+    margin: 0px 20px 0px 0px;
+    
 
+
+}
+
+.divFlex{
+    display: flex;
+ 
+
+    
+    
+}
+
+.a label{
+    font-size: 15px;
+    
+
+}
+
+body{
+    margin: 20px;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+#p{
+    background-color: blue;
+}
+
+.reto{
+    display: flex;
+    flex-direction: column;
 }
 
 /* main{
