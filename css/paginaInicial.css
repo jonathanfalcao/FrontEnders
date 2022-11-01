@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.assistant-font {
+    font-family: 'Assistant', sans-serif;
+}
+
+.purple {
+    background-color: #400f80;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container .container-text {
+    text-align: start;
+}
+
+.flex-container .container-text h2 {
+    font-size: 45px;
+    color: white
+}
+
+.flex-container .container-text p {
+    margin-top: 4rem;
+    font-size: 25px;
+    color: white;
+}
+
+.propaganda-top {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imagem-propaganda {
+    width: 45%;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-text {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+
+                  /* SEGUNDA SESSÃO */
+
+                  
