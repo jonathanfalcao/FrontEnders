@@ -1,21 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
 #btnCadastrar{
     transition: ease 1s all;
 }
 
 #exampleFormControlInput1{
-    width: 200px;
     margin: 0px 20px 0px 0px;
-    
+   height: 42px;
+   font-size: 15px;
+    font-family: 'Assistant', sans-serif;
 
 
 }
 
+
+
 .divFlex{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+    
+    
  
 
     
     
+}
+
+.btn{
+    margin-top: 20px;
+   width: 200px;
+   height: 60px;
+}
+
+.adjustBtn{
+    display: flex;
+    justify-content: center;
 }
 
 .a label{
@@ -24,29 +46,64 @@
 
 }
 
+.a h1{
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
 body{
-    margin: 20px;
+    margin-top: 100px;
 }
 
 form{
-    
+    margin-left: 70px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: stretch;
     gap: 30px;
+    width: 900px;
+    max-width: 600px;
+    
+  
 }
 
 #p{
-    background-color: blue;
+    padding-top: 20px;
+    background-color: rgb(94, 68, 167);
+    height: 1176.5px;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 300px;
+    color: rgb(236, 232, 232);
+}
+
+#p h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+strong{
+    margin-left: 50px;
+}
+.adjustTextCard1{
+    display: flex;
+    justify-content: center;
+}
+.adjustTextCard2{
+    width: 300px;
+    
 }
 
 .reto{
     display: flex;
     flex-direction: column;
+   
 }
 
-/* main{
-    margin-top: 500px;
+main{
+    
     display: flex;
-    flex-wrap: wrap;
-} */
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 200px;
+}
