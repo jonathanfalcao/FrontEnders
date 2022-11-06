@@ -44,55 +44,57 @@
         <div class="a">
           <img src="" alt="">
           <h1>Cadastro</h1>
-          <form>
+          <form method="get" action="." >
           
          <div> <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
-          <input type="text" class="form-control " id="exampleFormControlInput1"  size="50" ></div>
+          <input type="text" class="form-control " id="exampleFormControlInput1"  size="50" required ></div>
           <div class="divFlex"> <div class="reto">
             <label for="exampleFormControlInput1" class="form-label">RG</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" size="24" >
+            <input type="text" class="form-control" id="exampleFormControlInput1" size="24" required>
           </div>
           <div class="reto">
             <label for="exampleFormControlInput1" class="form-label">CPF</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" size="24" >
+            <input type="text" class="form-control" id="exampleFormControlInput1" size="24" required>
           </div></div>
         <div><label for="exampleFormControlInput1" class="form-label">E-mail</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1"  size="50"></div>
+          <input type="text" class="form-control" id="exampleFormControlInput1"  size="50" required></div>
           <div class="divFlex">  <div class="reto">
             <label for="exampleFormControlInput1" class="form-label" >Senha</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" size="24" >
+            <input type="password" class="form-control" id="exampleFormControlInput1" size="24"required >
           </div><div class="reto">
             <label for="exampleFormControlInput1" class="form-label">Confirmar senha</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" size="24" >
+            <input type="password" class="form-control" id="exampleFormControlInput1" size="24"required >
           </div></div>
           <div class="divFlex">  <div class="reto">
             <label for="exampleFormControlInput1" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"  size="15" >
+            <input type="text" class="form-control" id="cep" name="cep"  size="15" minlength="8" maxlength="8" required  onblur="pesquisacep(this.value);" >
           </div><div class="reto">
             <label for="exampleFormControlInput1" class="form-label">Rua</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"  size="15" >
+            <input type="text" class="form-control" id="rua" name="rua" size="15" required data-input>
           </div><div class="reto">
             <label for="exampleFormControlInput1" class="form-label">Número</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"  size="1" >
+            <input type="text" class="form-control" id="exampleFormControlInput1"  size="1" required>
           </div></div>
           <div class="divFlex"> <div class="reto">
             <label for="exampleFormControlInput1" class="form-label">Bairro</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"  size="17">
+            <input type="text" class="form-control" id="bairro" name="bairro" size="17"  required>
           </div><div class="reto">
             <label for="exampleFormControlInput1" class="form-label">Município</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"  size="17">
+            <input type="text" class="form-control" id="cidade" name="cidade"  size="17" required>
           </div><div class="reto">
             <label for="exampleFormControlInput1" class="form-label">UF</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1"   size="1">
+            <input type="text" class="form-control" id="uf" name="uf"  size="1" required>
           </div></div>
         <div> <label for="exampleFormControlInput1" class="form-label">Complemento</label>
           <input type="text" class="form-control" id="exampleFormControlInput1"  size="50"></div>
-         <div> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+         <div> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
           <label class="form-check-label" for="flexCheckDefault">Li e aceito os "Termos e Condições"</label></div>
             <div class="adjustBtn">
-              <button type="button" class="btn btn-outline-primary" id="btnCadastrar">Cadastrar</button>
+              <button class="btn btn-outline-primary" id="btnCadastrar" >Cadastrar</button>
             </div>
+            
           </form>
+          
         
         </div>
         </section>
@@ -155,6 +157,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+
+    <script src="./js/listaEspera.js"></script>
 </body>
 
 </html>

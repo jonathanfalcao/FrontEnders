@@ -4,13 +4,20 @@
     transition: ease 1s all;
 }
 
-#exampleFormControlInput1{
+/* #Cep{
     margin: 0px 20px 0px 0px;
    height: 42px;
    font-size: 15px;
     font-family: 'Assistant', sans-serif;
 
 
+} */
+
+form input{
+    margin: 0px 20px 0px 0px;
+   height: 42px;
+   font-size: 15px;
+    font-family: 'Assistant', sans-serif;
 }
 
 
@@ -63,7 +70,7 @@ form{
     align-items: stretch;
     gap: 30px;
     width: 900px;
-    max-width: 600px;
+    max-width: 500px;
     
   
 }
@@ -76,6 +83,7 @@ form{
     width: 500px;
     margin-left: 300px;
     color: rgb(236, 232, 232);
+    max-width: 400px;
 }
 
 #p h1{
