@@ -39,7 +39,7 @@ main {
 .card-size {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
 }
 
@@ -51,18 +51,24 @@ main {
 
 .card-content {
   padding: 5px;
-  margin: 0.8rem;
+  margin: 1.2rem;
   box-shadow: 10px 10px 8px #bbbbbb;
   position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
   min-width: 0;
-  word-wrap: break-word;
   background-color: #9244f3;
   background-clip: border-box;
   border: 1px solid #9244f3;
   border-radius: 0.5rem;
+}
+.card-content:hover{
+  background-color: #5808b9;
+ color: rgb(0,0,0);
+ text-decoration: none;
+ transform: scale(1.1);
+ transition: all 0.5s;
 }
 
 .card-content h3 {
@@ -115,7 +121,7 @@ main {
 }
 
 .login-container {
-  margin-top: 7rem;
+  margin-top: 4rem;
   border: 2px solid #400d80;
   height: 33rem;
   width: 25rem;
@@ -191,6 +197,7 @@ label{
   padding-left: 5rem;
   padding-right: 5rem;
 margin: 1rem;
+
 
 }
 
