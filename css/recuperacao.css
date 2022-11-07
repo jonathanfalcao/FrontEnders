@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+
 main {
   background-color: #ffffff;
-  margin: 5rem;
+
 }
 .primeira {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: center;  
+  margin: 10rem;
+}
+
+.alert{
+  display: none;
 }
 
 form {
+  width: 30rem;
+  height: 18rem;
+  background-color: #f9f2ff;
+  box-shadow: 1px 2px 8px #4a287c;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem;
+  padding: 1.5rem;
 }
 
 .title {
@@ -21,26 +35,33 @@ form {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 1rem;
-  color: #762fcf;
+  color: #400f80;
 }
+
+.title h3{
+  font-size: 1.5rem;
+}
+
 .title img {
-  margin-top: 5px;
+  margin-top: 4px;
   margin-right: 5px;
   border: 80px;
   border-radius: 25px;
   background-color: #f9f2ff;
-  width: 30px;
-  height: 20px;
+  width: 28px;
+  height: 18px;
 }
 
 form p {
   color: #f9b850;
+  font-size: 15px;
+  
 }
 
 form input{
   text-align: center;
-  padding: 1rem;
   width: 20rem;
+  height: 3rem;
   border-radius: 25px;
   border: 2px solid #400f80;
   margin: 0.5rem;
@@ -48,14 +69,51 @@ form input{
 
 form button {
   margin-top: 1rem;
-  margin: 1rem;
-  background-color: #762FCF;
+  background-color: #400f80;
   color: white;
-  width: 10rem;
-  height: 3rem;
+  width: 7rem;
+  height: 2.5rem;
   border-radius: 50px;
 }
 
 form button:hover{
-    background-color:#400f80;
+    background-color:#762FCF;
    }
+
+
+   #sent{
+    width: 30rem;
+    height: 18rem;
+    background-color: rgb(233, 249, 210);
+    box-shadow: 1px 2px 8px #4a287c;
+    border-radius: 25px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+   }
+   
+   #sent h4{
+color: #4a287c;
+   }
+
+  #sent p{
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    color: #f9b850;
+  font-size: 16px;
+  }
+
+  #sent button{
+    color: white;
+    margin-top: 2rem;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #4a287c;
+    border-radius: 25px;
+  }
+
+  #sent button:hover{
+    background-color: #762FCF;
+  }

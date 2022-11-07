@@ -1,62 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/navs.css" />
 
-    <link rel="stylesheet" href="./css/recuperacao.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/navs.css" />
+  <link rel="stylesheet" href="./css/recuperacao.css">
 
-    <title>FrontEnders</title>
-  </head>
+  <title>FrontEnders</title>
+</head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">FrontEnders</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">FrontEnders</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse navG4" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="produtos.html"
-                >Produtos</a
-              >
-              <a class="nav-link" aria-current="page" href="contato.html"
-                >Contato</a
-              >
-              <a class="nav-link" aria-current="page" href="listaEspera.html"
-                >Lista de Espera</a
-              >
-              <a class="nav-link" aria-current="page" href="login.html"
-                >Login</a
-              >
-            </div>
+        <div class="collapse navbar-collapse navG4" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="produtos.html">Produtos</a>
+            <a class="nav-link" aria-current="page" href="contato.html">Contato</a>
+            <a class="nav-link" aria-current="page" href="listaEspera.html">Lista de Espera</a>
+            <a class="nav-link" aria-current="page" href="login.html">Login</a>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <section class="primeira">
-        <form>
+  <main>
+    <section class="primeira">
+
+      <div class="alert alert-danger" role="alert">
+       Preencha o campo com o seu email.
+      </div>
+      <br>
+      <form>
           <div class="title">
           <img src="./img/door-key.png" alt="Imagem de uma chave roxa">
           <h3>Esqueceu sua senha?</h3>
@@ -67,43 +54,49 @@
             <input id="email" type="email" placeholder="Email" class="box" required/>
             <button type="submit" onclick="validar()">Recuperar</button>
         </form>
-      </section>
-    </main>
 
-    <footer class="container-fluid">
-      <section class="logo-footer">
-        <a class="navbar-brand" href="index.html">FrontEnders</a>
-      </section>
+      <div id="sent">
+        <h4>Email enviado</h4>
+        <p>O email para redefinir a senha foi enviado. </p>
+        <p class="mb-0">Caso não encontre, procure na pasta de spam e lixo eletrônico.</p>
+      <button id="ok" type="button" onclick="">Ok</button>
+      </div>
+    </section>
+  </main>
 
-      <section class="informacoes-footer">
-        <div>
-          <h3>Endereço</h3>
-          <p>24 de Maio, S/N</p>
-        </div>
+  <footer class="container-fluid">
+    <section class="logo-footer">
+      <a class="navbar-brand" href="index.html">FrontEnders</a>
+    </section>
 
-        <div>
-          <h3>Email</h3>
-          <p>frontenders@gmail.com</p>
-        </div>
+    <section class="informacoes-footer">
+      <div>
+        <h3>Endereço</h3>
+        <p>24 de Maio, S/N</p>
+      </div>
 
-        <div>
-          <h3>Telefone</h3>
-          <p>(21) 912345678</p>
-        </div>
-      </section>
+      <div>
+        <h3>Email</h3>
+        <p>frontenders@gmail.com</p>
+      </div>
 
-      <section class="redesSociais">
-        <img src="./img/FacebookLogo.png" alt="Logo do Facebook" />
-        <img src="./img/InstagramLogo.png" alt="Logo do Instagram" />
-        <img src="./img/TwitterLogo.png" alt="Logo do Twitter" />
-      </section>
-    </footer>
+      <div>
+        <h3>Telefone</h3>
+        <p>(21) 912345678</p>
+      </div>
+    </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/recuperacao.js"></script>
-  </body>
+    <section class="redesSociais">
+      <img src="./img/FacebookLogo.png" alt="Logo do Facebook" />
+      <img src="./img/InstagramLogo.png" alt="Logo do Instagram" />
+      <img src="./img/TwitterLogo.png" alt="Logo do Twitter" />
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="./js/recuperacao.js"></script>
+</body>
+
 </html>
