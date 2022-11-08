@@ -11,11 +11,19 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;  
-  margin: 10rem;
+  margin: 14rem;
 }
 
 .alert{
   display: none;
+  animation: animate;
+  animation-duration: 2s;
+  
+}
+
+@keyframes animate{
+  from{opacity:1}
+  from{opacity:0}
 }
 
 form {
@@ -117,3 +125,4 @@ color: #4a287c;
   #sent button:hover{
     background-color: #762FCF;
   }
+

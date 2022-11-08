@@ -1,22 +1,28 @@
 function validar(){
-    var email = document.getElementById("email");
+    var email = document.getElementById("email").value;
     var alert = document.querySelector(".alert");
+    var re = /\S+@\S+\.\S+/;
 
-    if (email.value == ""){
-        alert.style.display='block';
-        email.focus();
-        return;
+    if(re.test(email) == false){
+      alert.style.display = 'block'
+      
+    }else{
+        alert.style.display = 'none'
     }
 }
 
-// function validar(){
-//     var email = document.getElementById("email");
-//     var form = document.querySelector('form')
-//     var sent = document.getElementById('sent')
+function valida() {
+    var email = document.getElementById("email").value;
+    var form = document.querySelector('form')
+    var sent = document.getElementById('sent')
+    var re = /\S+@\S+\.\S+/;
+   
+     if( re.test(email) == true){
+       form.style.display='none'
+       sent.style.display ='block'
 
-//    if (email.value == '/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/'){
-//   return form.style.display='none';
-//    }else if (form.style.display='none'){
-//     return sent.style.display='block';
-//    }
-// }
+     } 
+  }
+
+  console.log(valida())
+

@@ -52,14 +52,15 @@
             Digite seu e-mail que enviaremos um link para redefinir uma nova
             senha.</p>
             <input id="email" type="email" placeholder="Email" class="box" required/>
-            <button type="submit" onclick="validar()">Recuperar</button>
+            <button type="button" onclick="validar(),valida()">Recuperar</button>
         </form>
 
       <div id="sent">
         <h4>Email enviado</h4>
         <p>O email para redefinir a senha foi enviado. </p>
         <p class="mb-0">Caso não encontre, procure na pasta de spam e lixo eletrônico.</p>
-      <button id="ok" type="button" onclick="">Ok</button>
+        <a href="http://127.0.0.1:5501/index.html">
+      <button id="ok" type="submit" onclick="">Ok</button></a>
       </div>
     </section>
   </main>
