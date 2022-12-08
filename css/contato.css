@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    font-family: 'Russo One', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+
+}
+
+.primeira {
+    margin-top: 5rem;
+    width: 50%;
+}
+ h2 {
+    font-size: 25px;
+    padding: 6px;
+   
+}
+
+form {
+    padding: 1.3rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 2px solid red;
+   
+}
+
+.container {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input[type="text"] {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  form input[type="email"],
+  .form textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+    width: 400px;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+.btn_2 { 
+    margin-top: 1.5rem;
+    background-color: #400D80;
+    color: #F9B850;
+    border-radius: 20px;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 17px;
+    font-family: 'Lucida Sans';
+   
+}
+
+.col_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 28rem;
+    resize:both;
+}
+
+
+.segunda {
+    width: 50%;
+    margin-top: 5rem;
+    border: 2px solid pink;
+}
+
+.container_2{
+    
+}
