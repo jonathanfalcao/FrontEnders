@@ -130,7 +130,7 @@ textarea {
 
 h3 {
     color: #400D80;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     text-align: center;
     font-size: 20px;
 }
@@ -153,7 +153,8 @@ li {
     margin-top: 1.5rem;
     background-color: #F9B850;
     border-radius: 10px;
-    width: 2rem;
+    width: 8rem;
+    border: 2px solid #400D80;
     padding-right: 2rem;
 }
 
@@ -166,7 +167,6 @@ li {
 }
 
 .map {
-    padding: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
